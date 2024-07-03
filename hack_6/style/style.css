@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 50%;
+    margin: 0 auto;
+}
+
+.header {
+    position: relative;
+    color: white;
+    text-align: left;
+    padding: 100px 150px;
+    background: url("/img/2.png") no-repeat center center/cover;
+}
+
+.header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Superposición oscura */
+    z-index: -1;
+}
+
+.header .content {
+    position: relative;
+    z-index: 2;
+}
+
+.header .logo {
+    background: black;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+
+.header h1 {
+    font-size: 2rem;
+    margin: 10px 0;
+    color: #000000;
+}
+
+.header p {
+    font-size: 1rem;
+    color: #000000;
+    margin: 20px 0;
+}
+
+.header .discount-badge {
+    background-color: #2ecc71;
+    color: white;
+    font-size: 1.5rem;
+    padding: 60px 25px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.product-item {
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-item p {
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: red;
+    margin-right: 10px;
+}
+
+.footer {
+    padding: 30px 80px;
+    width: 85%;
+    margin: auto;
+    background-color: #000000;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-start;
+}
+.footer button {
+    background-color: #27ae60;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.footer button:hover {
+    background-color: #2ecc71;
+    display: flex;
+}
+
+

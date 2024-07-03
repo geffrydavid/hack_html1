@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    margin-top: 3%;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    background-color: #32cd32;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.header-right {
+    font-size: 1em;
+    margin-top: 3%;
+}
+
+.hero {
+    position: relative; /* O usa absolute si quieres ajustar la posición dentro de un contenedor específico */
+    top: -300px; /* Ajusta el valor según sea necesario */
+    text-align: left;
+    z-index: 0;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    margin-top: -100px;
+}
+
+.hero-text {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate(-50%, -30%);
+    color: white;
+}
+
+.hero-text h1 {
+    font-size: 2em;
+    background-color: rgba(50, 205, 50, 0.8);
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.hero-text p {
+    font-size: 1em;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.solutions {
+    padding: 50px 20px;
+    margin-top: -800px;
+}
+
+.solutions h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.solutions p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.solution-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 200px;
+    text-align: left;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.card p {
+    font-size: 1em;
+    text-align: justify;
+}
+
+footer {
+    background-color: #32cd32;
+    padding: 20px;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
